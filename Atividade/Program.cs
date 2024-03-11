@@ -39,7 +39,29 @@ namespace Atividade
             }
             if (var_tipo == "j")
             {
+            // --- Pessoa Jurídica ---
+            Pessoa_Juridica pj = new Pessoa_Juridica();
+            pj.nome = var_nome;
+            pj.endereco = var_endereco;
+            Console.WriteLine("Informar CNPJ:");
+            pj.cnpj = Console.ReadLine();
+            Console.WriteLine("Informar IE:");
+            pj.ie = Console.ReadLine();
+            Console.WriteLine("Informar Valor de Compra:");
+            val_pag = float.Parse(Console.ReadLine());
+            pj.Pagar_Imposto(val_pag);
 
+            Console.WriteLine("-------- Pessoa Jurídica ---------");
+            Console.WriteLine("Nome ..........: " + pj.nome);
+            Console.WriteLine("Endereço ......: " + pj.endereco);
+            Console.WriteLine("CNPJ ..........: " + pj.cnpj);
+            Console.WriteLine("IE ............: " + pj.ie);
+            Console.WriteLine("Valor de Compra: " + 
+pj.valor.ToString("C"));
+Console.WriteLine("Imposto .......: " + 
+pj.valor_imposto.ToString("C"));
+Console.WriteLine("Total a Pagar : " + 
+pj.total.ToString("C"));
             }
         }
     }

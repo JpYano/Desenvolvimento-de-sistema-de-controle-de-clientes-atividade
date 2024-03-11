@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\João (sesi)\\Desktop\\Desenvolvimento de sistema de controle de clientes\\Atividade\\Atividade.csproj",
+      "projectUniqueName": "C:\\Users\\João (sesi)\\Documents\\atividades senai\\Desenvolvimento de sistema de controle de clientes\\Atividade\\Atividade.csproj",
       "projectName": "Atividade",
-      "projectPath": "C:\\Users\\João (sesi)\\Desktop\\Desenvolvimento de sistema de controle de clientes\\Atividade\\Atividade.csproj",
+      "projectPath": "C:\\Users\\João (sesi)\\Documents\\atividades senai\\Desenvolvimento de sistema de controle de clientes\\Atividade\\Atividade.csproj",
       "packagesPath": "C:\\Users\\João (sesi)\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\João (sesi)\\Desktop\\Desenvolvimento de sistema de controle de clientes\\Atividade\\obj\\",
+      "outputPath": "C:\\Users\\João (sesi)\\Documents\\atividades senai\\Desenvolvimento de sistema de controle de clientes\\Atividade\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\João (sesi)\\AppData\\Roaming\\NuGet\\NuGet.Config"
